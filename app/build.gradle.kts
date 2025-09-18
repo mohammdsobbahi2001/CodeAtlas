@@ -99,10 +99,17 @@ dependencies {
     testImplementation(libs.kotlinx.coroutines.test)
     testImplementation(libs.turbine)
     testImplementation(libs.mockk)
+    testImplementation(libs.junit.jupiter)
+    testImplementation(libs.mockk.v1145)
+    testImplementation(libs.kotlinx.coroutines.test.v173)
+
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     androidTestImplementation(platform(libs.compose.bom.v20250900))
     androidTestImplementation(libs.androidx.ui.test.junit4)
+    androidTestImplementation (libs.androidx.ui.test.junit4.v150)
+    androidTestImplementation (libs.androidx.espresso.core)
+
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
     testImplementation(kotlin("test"))
