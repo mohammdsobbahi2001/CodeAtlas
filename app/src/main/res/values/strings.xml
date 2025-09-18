@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Code Atlas</string>
+    <string name="google_repos">Google Repositories</string>
+    <string name="search">Search</string>
+    <string name="search_repos">Search repositories…</string>
+    <string name="loading">Loading…</string>
+    <string name="retry">Retry</string>
+    <string name="repo_details">Repository Details</string>
+    <string name="back">Back</string>
+
+</resources>

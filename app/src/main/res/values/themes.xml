@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources >
+
+    <!-- Base app theme.Inherits from Material Light theme without ActionBar. -->
+    <style name="Theme.CodeAtlas" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <style name="Theme.CodeAtlas.Launcher" parent="Theme.CodeAtlas" />
+
+</resources>

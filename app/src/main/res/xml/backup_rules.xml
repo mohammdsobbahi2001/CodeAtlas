@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!--
+    Backup all shared preferences that aren't in the exclude list -->
+    <include domain="sharedpref" path="."/>
+    <!--
+    Backup all files in the external storage directory that aren't in the exclude list -->
+    <include domain="file" path="."/>
+    <!--
+    Backup all databases that aren't in the exclude list -->
+    <include domain="database" path="."/>
+</full-backup-content>

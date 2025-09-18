@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.CodeAtlas.Launcher" parent="Theme.SplashScreen">
+
+        <!-- Background color of the splash screen -->
+        <item name="android:windowSplashScreenBackground">@android:color/black</item>
+
+        <!-- Main splash icon displayed in the center -->
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/github_octocat_logo</item>
+
+        <!-- Background color behind the splash icon -->
+        <item name="android:windowSplashScreenIconBackgroundColor">@android:color/black</item>
+
+        <!--  branding image (e.g., app logo) displayed on splash -->
+        <item name="android:windowSplashScreenBrandingImage">@drawable/branding_logo</item>
+
+        <!-- Duration of the splash screen animation in milliseconds -->
+        <item name="android:windowSplashScreenAnimationDuration">3000</item>
+
+    </style>
+</resources>
